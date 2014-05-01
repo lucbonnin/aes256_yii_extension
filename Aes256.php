@@ -36,7 +36,7 @@ class Aes256 extends CApplicationComponent{
 	 * Use of AES256 with mcrypt lib
 	 * @var string
 	 */
-	const MCRYPT_CYPHER = MCRYPT_RIJNDAEL_256;
+	const MCRYPT_CYPHER = MCRYPT_RIJNDAEL_128;
 	/**
 	 * 
 	 * Use CBC mcrypt lib mode as it is more secured than EBC (because it creates a different hash each time)
