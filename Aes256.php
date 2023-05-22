@@ -27,7 +27,7 @@
 
  * @property privatekey_32bits_hexadecimal private key that must be EXACTLY 64 characters length of hexa (a-f, 0-9)
  * 
- * @author Luc Bonnin <luc@revelis.fr - comments + refactor for yii extension
+
  * @author Inspired by joshhartman version https://gist.github.com/joshhartman/5383582#file-mcrypt-cbc-php
  */
 class Aes256 extends CApplicationComponent{
